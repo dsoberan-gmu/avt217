@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body
+{
+	background-color: #3CFA88;
+	margin: 0 10%;
+	font-family: verdana, sans-serif;
+	text-align: center;
+}
+
+h1
+{
+	text-align: center;
+	font-family: verdana, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid #AD1107;
+	color: #AD1107;
+	margin-top: 30px;
+}
+
+h2
+{
+	font-family: verdana, sans-serif;
+	color: #AD1107;
+	font-size: 2.5em;
+}
+
+p{
+	font-family: verdana, sans-serif;
+	color: #AD1107;
+	font-size: 15px;
+	border-bottom: 1px solid #AD1107
+}
