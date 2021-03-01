@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+header{
+	width: 1000px;
+	margin: 48px auto 0px auto;
+}
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica Arial, "sans-serif";;
+	color: teal;
+	background-color: #D9DDDC;
+}
+
+nav{
+	width: 658px;
+	margin-left: 132px;
+	float: left;
+}
