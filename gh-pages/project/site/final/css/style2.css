@@ -3,7 +3,6 @@
 h2, h3{
 	font-family: 'Anton', sans-serif;
 	color: white;
-	text-align: center;
 }
 
 h1{
@@ -41,15 +40,12 @@ li{
 }
 
 .column{
-	width: 300px;
-	margin: 0 100px;
 	float: left;
-	text-align: center;
+
 }
 
 #wrapper{
 	width: 960px;
-	background-color: rgba(247,247,247,0.50);
 	overflow: hidden;
 	margin: 0 auto;
 }
@@ -84,4 +80,11 @@ footer{
 	margin: 0 100px;
 	float: left;
 	text-align: center;
+}
+
+dl{
+	list-style: circle;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 1125px;
+	color: 	white;
 }
