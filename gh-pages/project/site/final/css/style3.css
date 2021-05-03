@@ -3,7 +3,6 @@
 h2, h3{
 	font-family: 'Anton', sans-serif;
 	color: white;
-	text-align: center;
 }
 
 h1{
@@ -17,6 +16,7 @@ h1{
 p{
 	font-family: 'Josefin Sans', sans-serif;
 	color: white;
+	font-size: 20px;
 	}
 
 nav{
@@ -43,15 +43,13 @@ li{
 }
 
 .column{
-	width: 300px;
-	margin: 0 100px;
 	float: left;
-	text-align: center;
+	margin-right: 20px;
+
 }
 
 #wrapper{
 	width: 960px;
-	background-color: rgba(247,247,247,0.50);
 	overflow: hidden;
 	margin: 0 auto;
 }
@@ -88,16 +86,21 @@ footer{
   	text-indent: 2.5px;
 }
 
-.aboutme{
-	width: 1320px;
-	margin: 0 100px;
-	float: left;
-	text-align: center;
+.about{
+	float: right;
 }
 
-.game, .digital, .regular, .aboutme{
-	float: left;
-	clear: both;
+dl{
+	list-style: circle;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 1125px;
+	color: 	white;
+	font-size: 20px;
+}
+
+img{
+	float: right;
+	margin-right: 10px;
 }
 
 a{

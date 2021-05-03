@@ -8,8 +8,9 @@ header{
 
 body{
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica Arial, "sans-serif";;
-	color: #A0A858;
-	background-color: #EBD1FF;
+	color: white;
+	line-height: 1;
+	background-image: url("../images/dark-triangles.png");
 }
 
 .weekly{
@@ -22,4 +23,21 @@ body{
 	width: 100%;
 	margin: 20px 20px;
 	line-height: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited{
+	color: blue;
+}
+
+h1, h2, h3, h4, dt{
+	font-family: 'Anton', sans-serif;
+}
+
+dd{
+	font-family: 'Josefin Sans', sans-serif;
 }
